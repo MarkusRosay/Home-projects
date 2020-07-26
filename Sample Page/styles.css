@@ -1,0 +1,115 @@
+body {
+    background-color: #09022B;
+    padding-top: 70px;
+}
+
+.navbar-custom{
+    background-color: #09022B;
+}
+
+.btn-default{
+    background-color:#09022B;
+    color:rgb(216, 184, 1);
+    border-color: rgb(216, 184, 1);
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default{
+    background-color:#09022B;
+    color:rgb(216, 184, 1);
+    border-color: rgb(216, 184, 1);
+}
+
+.navbar-custom .navbar-brand, 
+        .navbar-custom .navbar-text{
+            color:rgb(216, 184, 1) ;
+}
+
+#navbarNav{
+    color:rgb(216, 184, 1) ;
+}
+
+.navbar-nav{
+    padding: 0.8em 0em;
+}
+
+.navbar-nav .nav-link{
+    font-size: 0.9em;
+    color: var(--light-gray) !important;
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding: 0 1.3em;
+}
+
+.navbar .navbar-header{
+    font-family: 'Playfair Display', serif;
+}
+.nav-wrapper    {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+
+}
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper   {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: rgb(216, 184, 1);
+    text-decoration: none; 
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid rgb(216, 184, 1);
+}
+
+.nav-link-wrapper a:hover {
+    color:rgb(216, 184, 1) ;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+/* Jumbotron */
+.jumbotron{
+    color: rgb(216, 184, 1);
+    background-image: url(../css/blk1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-size: 78rem;
+    height: 600px;
+}
+.jumbotron{
+    font-family: 'Playfair Display', serif;
+}
+.jumbotron{
+    background-color: black;
+}
+
+
+.container {
+    padding: 80px 50px 50px 50px;
+    font-size: 30px;
+}
+
+.col-lg-4{
+    margin-bottom: 20px;
+}

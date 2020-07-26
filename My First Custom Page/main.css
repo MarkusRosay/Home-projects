@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1586526994640-98e28d356ca6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
+    background-size: cover;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+}
+.text-box {
+    font-size: 20px;
+    color: chocolate;
+    float: right;
+    position: relative;
+    margin-top: 200px;
+    margin-right: 100px;
+    letter-spacing:5px ;
+}
+
+/*navbar*/
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: blanchedalmond;
+    font-family: 'Bebas Neue', cursive;
+    z-index: 1;
+}
+
+.logo  {
+    color: chocolate;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+    margin-top: 7px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin-top: auto;
+}
+
+/* Remove Bulletpoints */
+.nav-links li{
+    list-style: none;
+}
+
+/*Burger NAV*/
+
+.nav-links a{
+    color: chocolate;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: chocolate;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px){
+    .nav-links{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: blanchedalmond;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+}
+
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translatex(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+#content {
+    text-align: center;
+    padding-top: 25%;
+    color: chocolate;
+}
+
+/*About Page Textbox */
+
+.profile-content-wrapper{
+    background: blanchedalmond;
+    padding: 40px 40px 40px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 7%;
+}
+
+/* Gallery */
+.col-lg-4{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
