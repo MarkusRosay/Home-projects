@@ -1,0 +1,70 @@
+Todo's
+
+1. Build the project
+    - creating the folder
+    - adding files
+    - connecting files
+                                         Structure of project
+2. Navbar
+    - 2 links and a name
+
+3. Portfolio item grid
+    - images
+    - titles
+    - descriptions
+    - animations
+    - javascript
+
+4. about page
+    - image
+    - split column layout
+    -content
+
+
+
+Header container code html
+
+<div class="container">
+            <div class="nav-wrapper">
+                <div class="left-side">
+                    <div class="nav-link-wrapper active-nav-link">
+                        <a href="index.html">Home</a>
+                    </div>
+
+                    <div class="nav-link-wrapper">
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="brand">
+                        <div>MARK ROSENQUIST</div>
+                    </div>
+
+                </div>
+            </div>
+
+When setting up grid with multiple animated pics
+(notice plural in multiple grid (itemS))
+<div class="content-wrapper">
+    <div class="portfolio-items-wrapper">
+
+(Individual grid picture pic + logo + text)
+(notice singular in individual pic (iteM))
+
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image:url(images/portfolio1.jpg)"></div>
+                    
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/triangle.png">
+                                
+                            </div>
+
+                            <div class="subtitle">
+                                Cheesecake & Caramel Sauce
+                            </div>
+                        </div>
+                    </div>
+    </div>
+</div>    
