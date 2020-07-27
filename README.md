@@ -3,4 +3,4 @@ I am self-taught so feel free to reach out if you see anything I need to do corr
 
 The Sample Page is my first projecct in which I wanted to create a main page for a brand and then implement CSS to style it.
 
-My first project consists of a javascripted navbar and styling with css.
+My first custom page consists of a javascripted navbar and styling with css.
